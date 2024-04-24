@@ -1,0 +1,14 @@
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\bin\Debug\net8.0\Samochody.exe
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\bin\Debug\net8.0\Samochody.deps.json
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\bin\Debug\net8.0\Samochody.runtimeconfig.json
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\bin\Debug\net8.0\Samochody.dll
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\bin\Debug\net8.0\Samochody.pdb
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\obj\Debug\net8.0\Samochody.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\obj\Debug\net8.0\Samochody.AssemblyInfoInputs.cache
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\obj\Debug\net8.0\Samochody.AssemblyInfo.cs
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\obj\Debug\net8.0\Samochody.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\obj\Debug\net8.0\Samochody.dll
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\obj\Debug\net8.0\refint\Samochody.dll
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\obj\Debug\net8.0\Samochody.pdb
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\obj\Debug\net8.0\Samochody.genruntimeconfig.cache
+C:\Users\Filip\Desktop\programowanie_obiektowe\projekty\Samochody\Samochody\obj\Debug\net8.0\ref\Samochody.dll

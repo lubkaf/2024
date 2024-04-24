@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Filip\\Desktop\\programowanie_obiektowe\\projekty\\Samochody\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B6951D6-7DF6-4E3A-8DA6-F94605562FD8}|Samochody\\Samochody.csproj|c:\\users\\filip\\desktop\\programowanie_obiektowe\\projekty\\samochody\\samochody\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B6951D6-7DF6-4E3A-8DA6-F94605562FD8}|Samochody\\Samochody.csproj|solutionrelative:samochody\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B6951D6-7DF6-4E3A-8DA6-F94605562FD8}|Samochody\\Samochody.csproj|c:\\users\\filip\\desktop\\programowanie_obiektowe\\projekty\\samochody\\samochody\\classes\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B6951D6-7DF6-4E3A-8DA6-F94605562FD8}|Samochody\\Samochody.csproj|solutionrelative:samochody\\classes\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\programowanie_obiektowe\\projekty\\Samochody\\Samochody\\Classes\\Car.cs",
+              "RelativeDocumentMoniker": "Samochody\\Classes\\Car.cs",
+              "ToolTip": "C:\\Users\\Filip\\Desktop\\programowanie_obiektowe\\projekty\\Samochody\\Samochody\\Classes\\Car.cs",
+              "RelativeToolTip": "Samochody\\Classes\\Car.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowCYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T18:05:15.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\programowanie_obiektowe\\projekty\\Samochody\\Samochody\\Program.cs",
+              "RelativeDocumentMoniker": "Samochody\\Program.cs",
+              "ToolTip": "C:\\Users\\Filip\\Desktop\\programowanie_obiektowe\\projekty\\Samochody\\Samochody\\Program.cs",
+              "RelativeToolTip": "Samochody\\Program.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAlwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T18:04:19.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

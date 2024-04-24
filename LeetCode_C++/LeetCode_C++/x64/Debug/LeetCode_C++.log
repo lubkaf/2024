@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\Filip\Desktop\GitHub\LeetCode_C++\LeetCode_C++\Main.cpp(11,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Filip\Desktop\GitHub\LeetCode_C++\LeetCode_C++\Main.cpp(42,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LeetCode_C++.vcxproj -> C:\Users\Filip\Desktop\GitHub\LeetCode_C++\x64\Debug\LeetCode_C++.exe
