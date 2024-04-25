@@ -1,0 +1,15 @@
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\Zwierzęta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\Zwierzęta.AssemblyInfoInputs.cache
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\Zwierzęta.AssemblyInfo.cs
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\Zwierzęta.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\Zwierzęta.sourcelink.json
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\bin\Debug\net8.0\Zwierzęta.exe
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\bin\Debug\net8.0\Zwierzęta.deps.json
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\bin\Debug\net8.0\Zwierzęta.runtimeconfig.json
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\bin\Debug\net8.0\Zwierzęta.dll
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\bin\Debug\net8.0\Zwierzęta.pdb
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\Zwierzęta.dll
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\refint\Zwierzęta.dll
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\Zwierzęta.pdb
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\Zwierzęta.genruntimeconfig.cache
+C:\Users\Filip\Desktop\git\C#\Zwierzęta\Zwierzęta\obj\Debug\net8.0\ref\Zwierzęta.dll

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Filip\\Desktop\\git\\C#\\Zwierz\u0119ta\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F336CEB-0C9A-4327-9959-937D227B8AB9}|Zwierz\u0119ta\\Zwierz\u0119ta.csproj|c:\\users\\filip\\desktop\\git\\c#\\zwierz\u0119ta\\zwierz\u0119ta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F336CEB-0C9A-4327-9959-937D227B8AB9}|Zwierz\u0119ta\\Zwierz\u0119ta.csproj|solutionrelative:zwierz\u0119ta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F336CEB-0C9A-4327-9959-937D227B8AB9}|Zwierz\u0119ta\\Zwierz\u0119ta.csproj|c:\\users\\filip\\desktop\\git\\c#\\zwierz\u0119ta\\zwierz\u0119ta\\classes\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F336CEB-0C9A-4327-9959-937D227B8AB9}|Zwierz\u0119ta\\Zwierz\u0119ta.csproj|solutionrelative:zwierz\u0119ta\\classes\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\git\\C#\\Zwierz\u0119ta\\Zwierz\u0119ta\\Classes\\Animal.cs",
+              "RelativeDocumentMoniker": "Zwierz\u0119ta\\Classes\\Animal.cs",
+              "ToolTip": "C:\\Users\\Filip\\Desktop\\git\\C#\\Zwierz\u0119ta\\Zwierz\u0119ta\\Classes\\Animal.cs",
+              "RelativeToolTip": "Zwierz\u0119ta\\Classes\\Animal.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAA3wBkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T16:42:23.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\git\\C#\\Zwierz\u0119ta\\Zwierz\u0119ta\\Program.cs",
+              "RelativeDocumentMoniker": "Zwierz\u0119ta\\Program.cs",
+              "ToolTip": "C:\\Users\\Filip\\Desktop\\git\\C#\\Zwierz\u0119ta\\Zwierz\u0119ta\\Program.cs",
+              "RelativeToolTip": "Zwierz\u0119ta\\Program.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowE4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T16:42:02.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
