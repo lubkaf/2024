@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>05.10.2022</title>
+        <style>
+           /* #p2{color: firebrick;}
+            .kolorek {color: rgb(0, 145, 12);}
+            p {font-size: 20px}
+            .kolor {color: rgb(85, 0, 141);}*/
+            
+            ul, ol{list-style-type: none;}
+            ul > li, ol > li{width: 130px;
+                           height: 30px;
+                            text-align: center;
+                            color: rgb(255, 0, 0);
+                            background-color: aqua;
+                            margin: 5px;}
+             li > ul, li > ol {display: none;} 
+             li:hover > ol {display: block;
+                            position: absolute;
+                        top:90px;
+                        left:140px;}              
+        </style>
+    
+</head>
+<body>
+    <!--<p class="kolor kolorek"> Akapit 1</p>
+    <p class=" id="p2" kolor"> Akapit 2</p>
+    <p class="kolor"> Akapit 3</p>
+    <p class="kolor"> Akapit 4</p>-->
+
+        <ul>
+            <li>MENU</li>
+            <li>GALARETKA</li>
+            <li>KONTAKT
+                <ol>
+                    <li>sekretariat</li>
+                    <li>dyrekcja
+                        <ul>
+                            <li>mgr inż. Kowalski</li> 
+                        </ul>
+                    </li>
+
+                </ol>
+            </li>
+        </ul>
+
+</body>
+</html>

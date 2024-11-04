@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(Comfortaa/static/Comfortaa-Regular.ttf);
+}
+@keyframes showslide {
+    0%{margin-left:100vw;
+        width: 80%;
+        height:80%; }
+    100%{margin-left: 0;
+        width: 80%;
+        height:80%;}
+}
+@keyframes hideslide {
+    0%{margin-left:0;
+        width: 80%;
+        height:80%; }
+    100%{margin-right: 100vw;
+        width: 80%;
+        height:80%;
+     }
+    
+}
+*{
+    font-family: 'Comfortaa';
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(69, 67, 67);
+}
+main{
+    border: 2px solid whitesmoke;
+    width:80%;
+    height: 60vh;
+    background-color: grey;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+
+}
+.slide{
+    width: 80%;
+    height:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* animation: hideslide 0.2s  0s; */
+}
+img{
+    width: 85%;
+    border-radius: 25px;
+    border: 2px solid whitesmoke;
+    margin:10px;
+
+}
+footer{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: beige;
+    width: 90%;
+    height: 10%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#load{
+    width: 100%;
+    text-align: center;
+}
+#czas{
+    width:100%;
+    text-align: right;
+    color:beige;
+    font-size: 40px;
+    padding: 50px;
+}

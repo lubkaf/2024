@@ -1,0 +1,57 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+h2::first-letter{
+    font-size: 150%;
+}
+img{
+    height:100px;
+    padding:7px;
+}
+img:hover{
+    background-color: rgb(210,180,140);
+}
+body{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header{
+    background-color: rgb(205, 92, 92);
+    width:100%;
+    color:white;
+    text-align: center;
+    padding: 5px;
+}
+footer{
+    background-color: rgb(205, 92, 92);
+    width:100%;
+    color:white;
+    text-align: center;
+}
+article.boki{
+    background-color: rgb(250,235,215);
+    width:25%;
+    height:500px
+}
+article#srodek{
+    background-color: rgb(250,235,215);
+    width:50%;
+    height:500px
+
+}
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    width:100%;
+
+}
+div{
+    background-color: rgb(210,180,140);
+    color: white;
+    width: 100%;
+}

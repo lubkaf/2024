@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 5px ;
+        }
+        .one{
+            background-color: aqua;
+        }
+        .two{
+            background-color: violet;
+        }
+        .three{
+            background-color: lightseagreen;
+        }
+        .four{
+            background-color: beige;
+        }
+        
+    </style>
+<body>
+    
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+
+
+
+    <p>
+        Ala ma kota
+    </p>
+
+    <button>kursywa</button>
+    <button>pogrubienie</button>
+    <button>podkreślenie</button>
+
+
+</body>
+
+<script>
+    document.querySelector(".four").onclick = ()=>
+    {
+        document.body.style.backgroundColor = "beige";
+    }
+
+
+    document.querySelector(".three").onclick = ()=>
+    {
+        document.body.style.backgroundColor = "lightseagreen";
+    }
+
+
+    document.querySelector(".two").onclick = ()=>
+    {
+        document.body.style.backgroundColor = "violet";
+    }
+
+
+    document.querySelector(".one").onclick = ()=>
+    {
+        document.body.style.backgroundColor = "aqua";
+    }
+
+    document.querySelector("button:nth-of-type(3)").onclick = ()=>
+    {
+    document.querySelector("p").style.textDecoration = "underline"
+    }
+
+    document.querySelector("button:nth-of-type(2)").onclick = ()=>
+    {
+    document.querySelector("p").style.fontWeight = "900"
+    }
+    
+    document.querySelector("button:nth-of-type(1)").onclick = ()=>
+    {
+    document.querySelector("p").style.fontStyle = "italic"
+    }
+</script>
+
+</html>

@@ -1,0 +1,40 @@
+*{
+    font-family: 'Comfortaa';
+}
+h1{
+    width: 100%;
+    background-color: black;
+    color:white;
+    height: 60px;
+    margin:0;
+}
+
+div{
+    width: 100%;
+    background-color: black;
+    color:white;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 100px;
+  transition:0.3s;
+  width:auto;
+  height: auto;
+}
+.material-symbols-outlined:hover {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color:red;
+
+}
+
+

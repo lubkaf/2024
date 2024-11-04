@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serduszko</title>
+    <style>
+        body
+        {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img
+        {
+            width: 407px;
+            height: 399px;
+        }
+    </style>
+</head>
+<body>
+    <img id="zdj" src="serce1.png" alt="serce1">  <!--407 x 399--> 
+    <script>
+        function ZamianaZdjecia()
+        {
+            let zdjecie = zdj.getAttribute("src")
+            if(zdjecie == "serce1.png")
+            {
+                zdj.src = "serce2.png";
+            }
+            else
+            {
+                zdj.src = "serce1.png"
+            }
+        }
+        zdj.addEventListener("click", ZamianaZdjecia);
+    </script>
+</body>
+
+</html>

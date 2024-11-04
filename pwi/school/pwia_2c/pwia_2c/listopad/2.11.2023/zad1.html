@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>oblicz koszt dostawy</h2>
+    <br>
+    <input type="checkbox" id="mieszkam">
+    <label for="mieszkam">Jestem z Zielonej Góry</label>
+    <br>
+    <label for="dystans">Jak daleko mieszkasz</label>
+    <input type="number" min="1" id="dystans">
+    <input type="button" value="oblicz" id="btn">
+    <p id="wynik"></p>
+<script>
+    
+    btn.onclick = () =>
+    {
+        let cena = Number(dystans.value * 2);
+        
+        if(mieszkam.checked)
+        {
+            wynik.style.fontWeight = "900";
+            wynik.innerText = "dowoz darmowy";
+        }
+        else
+        {
+            wynik.style.fontWeight = "900";
+            wynik.innerText = "musisz zapłacić " + cena + złotych;
+        }
+    }
+    
+</script>
+
+</body>
+
+
+</html>

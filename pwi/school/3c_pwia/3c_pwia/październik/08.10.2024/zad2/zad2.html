@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <form action="form2.php" method="post">
+        <table>
+            <tr>
+                <td>
+                    <input type="checkbox" name="produkt[0]" id="" value="zapiekanka">
+                    zpaiekanka
+                </td>
+                <td>
+                    <input type="number" name="ilosc[0]" id="" min="1" value="1">
+                </td>
+                <td>
+                   <input type="text" name="cena[0]" value="10.0" readonly class="r">          <!--w input text jest readonly, co oznacze ze nie można zmienić wartości w inpucie -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="produkt[1]" id="" value="burger">
+                    burgir
+                </td>
+                <td>
+                    <input type="number" name="ilosc[1]" id="" min="1" value="1">
+                </td>
+                <td>
+                    <input type="text" name="cena[1]" value="18.9" readonly class="r">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="produkt[2]" id="" value="rollo">
+                    misiany misiany
+                </td>
+                <td>
+                    <input type="number" name="ilosc[2]" id="" min="1" value="1">
+                </td>
+                <td>
+                    <input type="text" name="cena[2]" value="14.0" readonly class="r">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="zakoncz">
+    </form>
+
+
+</body>
+</html>

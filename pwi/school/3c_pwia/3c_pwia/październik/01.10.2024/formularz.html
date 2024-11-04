@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="formularzSkrypt.php" method="POST">
+        <label>
+            Imie
+        <input type="text" name="imie"/>
+        </label>
+        
+        <br>
+        <label>
+            Nazwisko
+            <input type="text" name="nazwisko"/>
+        </label>
+        
+        <br>
+
+        <label>
+            Płeć
+            <br>
+            Mężczyzna<input type="radio" name="plec" value="mężczyzna"/>
+            Kobieta<input type="radio" name="plec" value="kobieta"/>
+        </label>
+        
+        <br>
+
+        <label>
+            Opis
+            <br>
+            <textarea name="opis" cols="30" rows="10"></textarea>
+        </label>
+        
+        <br>
+
+        <label>
+            Zainteresowania
+            <br>
+            muzyka<input type="checkbox" name="zainteresowania[muzyka]" value="fin fin fin">
+            film<input type="checkbox" name="zainteresowania[film]" value="film film film">
+            gry<input type="checkbox" name="zainteresowania[gry]" value="gry gry gry">
+            teatr<input type="checkbox" name="zainteresowania[teatr]" value="te atr te atr">
+        </label>
+
+        <br>
+
+        <input type="submit">
+        </form>
+
+</body>
+</html>

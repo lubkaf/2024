@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator kosztu ogłoszenia</title>
+</head>
+<body>
+
+<form id="ogloszeniaForm">
+    <label for="liczbaOgloszen">Liczba ogłoszeń:</label>
+    <input type="text" id="liczbaOgloszen" name="liczbaOgloszen" required>
+
+    <br>
+
+    <label for="stalyKlient">Stały klient:</label>
+    <input type="checkbox" id="stalyKlient" name="stalyKlient">
+
+    <br>
+
+    <button type="button" onclick="obliczKoszt()">Oblicz koszt</button>
+</form>
+
+<p id="wynikKosztu"></p>
+
+<script>
+    function obliczKoszt() {
+        var liczbaOgloszen = parseInt(document.getElementById('liczbaOgloszen').value);
+        var stalyKlient = document.getElementById('stalyKlient').checked;
+        var koszt;
+
+        if (liczbaOgloszen >= 1 && liczbaOgloszen <= 50) {
+            koszt = 2 * liczbaOgloszen;
+        } else if (liczbaOgloszen >= 51 && liczbaOgloszen <= 100) {
+            koszt = 1.5 * liczbaOgloszen;
+        } else {
+            koszt = liczbaOgloszen;
+        }
+        //Rabat dla stałych klientów
+        if (stalyKlient) {
+            koszt *= 0.8; 
+        }
+
+        document.getElementById('wynikKosztu').innerText = "Koszt ogłoszenia: " + koszt.toFixed(2) + " zł";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'poppins';
+    color:aliceblue;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 40vh 40vh 10vh;
+
+
+
+}
+header{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: #453849;
+    text-align: center;
+
+}
+section{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: #684574;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+div{
+    border: 1px solid black
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: #88449E;
+}
+.middle{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: #88449E;
+
+}
+.right{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: #88449E;
+}
+.middle, .right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    grid-row: 4/5;
+    grid-column: 1/4;
+    background-color: #453849;
+
+}
+
+
+
+
+ol{
+    border: 1px solid black;
+    padding: 10px;
+    list-style: circle;
+    list-style-position: inside;
+    width: 80%;
+}
+
+
+
+.form{
+    padding:10px;
+    margin: 5px;
+    border: none;
+}
+input[type=number]{
+    color: #000;
+}
+
+button{
+    color: black;
+}
+

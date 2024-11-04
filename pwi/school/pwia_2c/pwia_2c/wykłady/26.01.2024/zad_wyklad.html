@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            background-color: blanchedalmond;
+            font-family: 'Verdana';
+            text-align: center;
+        }
+        body{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button{
+            width: 150px;
+            padding:10px;
+            margin:10px;
+            height: 60px;
+            border: 3px dotted rgb(151, 108, 53);
+            text-align: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="left">
+    <button id="tomsoup" onclick="genone()" >TomatoSoup</button>
+    
+    </div>
+
+    <div id="middle">
+        <button id="pork" onclick="gentwo()" >PorkChop</button>
+    </div>
+
+    <div id="right">
+        <button id="sghti" onclick="genthree()" >Spaghetti</button>
+    </div>
+
+
+
+
+
+
+
+    <p id="result"></p>
+    
+
+
+    <script>
+        const tomatoSoup = {
+            price: 19.70,
+            quality:    "sucks",
+
+        }
+
+        const porkChop = {
+            price: 32.50,
+            quality:"good i think",
+
+        }
+
+        const spaghetti = {
+            price: 27.30,
+            quality:    "no",
+
+        }
+
+        const zakupy = 
+        {
+            cena: x,
+            ilosc,
+            
+        }
+
+        // var schab = document.getElementById("pork");
+        // schab.addEventListener("click", genone());
+
+
+        function gentwo()
+        {
+            result.innerHTML = porkChop.price+ "zl" + "<br>" + porkChop.quality; 
+
+        }
+
+        function genone()
+        {
+            result.innerHTML = tomatoSoup.price+ "zl" + "<br>" + tomatoSoup.quality; 
+
+        }
+
+        function genthree()
+        {
+            result.innerHTML = spaghetti.price+ "zl" + "<br>" + spaghetti.quality; 
+
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
+
+
+
+<!-- 
+swórz 3 obiekty o nazwie dań (schabowy pomidorowa sphagetti) dodaj właściwości:
+ - cena
+ - jakość
+
+ wyświetl informacje o danym obiekcie po kliknięciu przycisku 
+-->
+
+
+<!-- obiekt zakupy właściwości produkt cena, ilość, uzytkownik sam wypełnia -->

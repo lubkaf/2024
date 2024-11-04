@@ -1,0 +1,73 @@
+body{
+    font-family: 'helvetica', sans-serif;
+    color:#222;
+    margin: auto;
+    width: 90%;
+    background-color: beige;
+    
+}
+table{
+ border: 1px solid black;
+ border-collapse: collapse;
+ width: 490px;
+ height: 200px;
+ margin: 40px ;
+}
+td{
+    padding:30px;
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-collapse: collapse;  
+}
+header{
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+footer{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header > div{
+    width: 50%
+}
+nav{
+    width: 50%;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    padding:200px;
+    
+}
+a{
+    color: #aaa;
+    text-decoration: none;
+    border-bottom:1px solid #aaa;
+    padding: 5px;
+}
+section{
+    padding:20px;
+
+}
+a:hover{
+    color: white;
+}
+h1{
+    font-family: 'tytul';
+    padding:20px;
+}
+@font-face {
+    font-family: tytul;
+    src: url(JHINBEY.ttf);
+}

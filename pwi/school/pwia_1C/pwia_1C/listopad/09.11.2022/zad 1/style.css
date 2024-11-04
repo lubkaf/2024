@@ -1,0 +1,31 @@
+body{background-color: #d3dde3;
+    margin:0;
+    padding: 0;
+    }
+
+.container-1, .container-2{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            background-color: royalblue;
+            }
+.flexitem{flex-basis: 25%;
+    background-color: rgb(158, 179, 250);
+    border: 1px solid #000;
+    }
+.box-1, .box-4 {min-height: 50px}
+
+.box-2, .box-5 {min-height:150px}
+
+.box-3,.box-6 {min-height: 250px}
+
+.box-4{align-self: flex-end;}
+
+.box-1 {text-align: right;}
+
+div{display:flex;}
+
+div.box-3{justify-content: center;
+        align-items: flex-end;}
+div.box-5{align-items: center;
+        justify-content: center;}

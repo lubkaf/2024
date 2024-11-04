@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        a = +prompt("podaj liczbe a")
+        b = +prompt("podaj liczbe b")
+        znak = String(prompt("podaj znak matematyczny"))
+
+        switch(znak){
+            case '*':
+                document.write(a*b);
+                break;
+            case '/':
+                if(b == 0){
+                    alert("nie dzieli się przez 0")
+                    break;
+                }
+                else{
+                document.write(a/b);
+                break;
+                }
+            case '+':
+                document.write(a+b)
+                break;
+            case"-":
+                document.write(a-b)
+                break;
+            default:
+                document.write("nie znam podanego symbolu matematycznego")
+
+        }
+    </script>
+</body>
+</html>

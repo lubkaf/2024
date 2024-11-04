@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+}
+img{
+    width:80%;
+    
+}
+article{
+    background-color: aquamarine;
+    width:40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 20px;
+}
+h1{
+    display: flex;
+    flex-wrap: nowrap;
+    width:100%;
+    justify-content: space-between;
+    
+}
+img:hover{
+   opacity: 0.5;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

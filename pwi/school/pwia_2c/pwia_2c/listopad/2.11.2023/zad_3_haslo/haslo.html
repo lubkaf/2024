@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *
+    {
+        background-color: rgb(165, 165, 165);
+        margin: 0 auto;
+    }
+    body
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header, footer
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 10vh;
+        background-color:   grey;
+        text-decoration: underline;
+    }
+    aside
+    {
+        width:40%;
+        height: 80vh;
+        
+    }
+    main
+    {
+        width: 60%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+
+    }
+    h1
+    {
+        background-color: grey ;
+    }
+
+    a
+    {
+        background-color: gray;
+    }
+    footer
+    {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px;
+    }
+
+
+
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>
+            sprawdz swoje haslo
+        </h1>
+    </header>
+    <aside>
+        <h3>
+            Wybierz
+        </h3>
+        <ol>
+                    <a href="sprawdz.html">zasady</a>
+        </ol>
+    </aside>
+
+    <main>
+
+         <div>
+             podaj swoje hasło
+             <input type="text" name="haslo" id="haslo" placeholder="podaj haslo">
+             <button id="btn" onclick="IsCorrect()">sprawdź</button>
+             <p id="wynik"></p>
+         </div>
+    </main>
+    <footer>
+        kudygf
+    </footer>
+
+    <script>
+        function IsCorrect()
+        {
+            let dane = haslo.value;
+            let wzor = /[0-9]/g;
+            if(dane.length>=7 && dane.search(wzor) != -1)
+            {
+                wynik.innerHTML = "Twoje haso jest silne";
+            }
+            else if ( dane.length >=4 && dane.length <=6)
+            {
+                wynik.innerHTML = "może być";
+            }
+            else
+            {
+                wynik.innerHTML = "słabe no"
+            }
+
+            
+        }
+        
+    </script>
+</body>
+</html>

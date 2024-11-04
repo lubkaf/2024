@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function ocena()
+    {
+        let x = prompt("podaj wartość");
+        switch(x){
+            case'1':
+            case"2":
+                document.write("musisz sporo poćwiecyzć");
+                break;
+            case"3":
+                document.write("jest ok");
+                break;
+            case"4":
+            case"5":
+            case"6":
+                document.write("świetna robota")
+                break;
+            default:
+                document.write("nieprawidłowa wartość")
+                break;
+        }
+    }
+    ocena();
+
+
+</script>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <input type="number" id="n1">
+        <input type="number" id="n2">
+        <br>
+        <input type="reset" value="wyczysc">
+    </form>
+    <input type="button" id="zatwierdz" value="zatwierdz" onclick="dzialania()">
+    <p id="wypisz"></p>
+    <p id="sumalos"></p>
+    <br>
+    <p id="suma"></p>
+    <p id="roz"></p>
+    <p id="iloc"></p>
+    <p id="iloraz1"></p>
+    <p id="iloraz2"></p>
+    <p id="iloraz3"></p>
+    <p id="bezwzgl"></p>
+    <p id="kwadrat"></p>
+    <p id="pierwiastek"></p>
+    <p id="k2"></p>
+    <p id="maks"></p>
+    <p id="mi"></p>
+    <p id="zaok"></p>
+    <script>
+        function losuj5(){
+            let suma = 0;
+            const losowe = new Array(5)
+            for(i=0; i<5 ; i++){
+                losowe[i] = Math.random() * 100 + 1;
+                wypisz.innerHTML += losowe[i] + "<br>";
+                suma += losowe[i];
+                
+            }
+            sumalos.innerHTML = suma;
+            
+        }
+
+        function dzialania(){
+            let l1 = n1.value;
+            let l2 = n2.value;
+
+            let sum = l1+l2;
+            suma.innerHTML = "suma" + suma;
+            let roznica = l1 - l2;
+            roz.innerHTML = "roznica" + roznica;
+            let iloczyn = l1*l2;
+            iloc.innerHTML = "iloczyn" + iloczyn;
+            let iloraz =(l1/l2);
+            let ilor1 = iloraz;
+            ilor1.toPrecision(5);
+            iloraz1.innerHTML ="iloraz zakor 5 miejsc: " +  ilor1;
+            let ilor2 = iloraz;
+            iloraz2.innerHTML = "zaokrl^: " + Math.ceil(ilor2);
+            let ilor3 = iloraz;
+            iloraz3.innerHTML = "zaokrl w dol: " + Math.floor(ilor3);
+            bezwzgl.innerHTML = "abs: " + Math.abs(l1) + " " + Math.abs(l2);
+            kwadrat.innerHTML = "kawdrat: " + Math.pow(l1,2);
+            pierwiastek.innerHTML ="pierwiastek: " + Math.sqrt(l2);
+            k2.innerHTML = "pow: " + Math.pow(l1,l2);
+            maks.innerHTML = "max: " + Math.max(l1,l2);
+            mi.innerHTML = "min: "+Math.min(l1,l2);
+            zaok.innerHTML ="round: " + Math.round(l1) + " " + Math.round(l2);
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator zakupu cegieł</title>
+
+</head>
+
+<body>
+<form id="ceglyForm">
+    <label for="iloscCegiel">Ilość cegieł:</label>
+    <input type="text" id="iloscCegiel" name="iloscCegiel" required>
+    <br>
+    <label for="ceglaPremium">Cegła premium:</label>
+    <input type="checkbox" id="ceglaPremium" name="ceglaPremium">
+    <br>
+    <button type="button" onclick="obliczKosztIWage()">Oblicz</button>
+</form>
+
+<p id="wynikInformacji"></p>
+
+<script>
+
+    function obliczKosztIWage() {
+
+        var iloscCegiel = parseInt(document.getElementById('iloscCegiel').value);
+
+        var ceglaPremium = document.getElementById('ceglaPremium').checked;
+
+        var kosztCegly = 2;
+
+        var wagaCegly = 1.5;
+        //cegła premium
+        if (ceglaPremium) {
+
+            kosztCegly *= 1.3; 
+
+            wagaCegly = 1.75;
+
+        }
+
+        var kosztZakupu = iloscCegiel * kosztCegly;
+
+        var wagaCegiel = iloscCegiel * wagaCegly;
+
+        var informacja = "Zakupiona ilość cegieł: " + iloscCegiel + ",<br> Cegła: " + (ceglaPremium ? "premium" : "standardowa") + ", <br>Koszt zakupu cegieł: " + kosztZakupu.toFixed(2) + " zł, <br>Waga cegieł: " + wagaCegiel.toFixed(2) + " kg";
+
+        document.getElementById('wynikInformacji').innerHTML = informacja;
+
+    }
+
+</script>
+
+</body>
+
+</html>

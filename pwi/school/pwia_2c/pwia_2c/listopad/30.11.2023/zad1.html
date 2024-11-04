@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="przyciski">
+        <button id="przycisk1" value="100" onclick="nazwa(value,id)">p1</button>
+        <button id="przycisk2" value="200" onclick="nazwa(value,id)">p2</button>
+        <button id="przycisk3" value="300" onclick="nazwa(value,id)">p3</button>
+        <button id="przycisk4" value="400" onclick="nazwa(value,id)">p4</button>
+        <button id="przycisk5" value="500" onclick="nazwa(value,id)">p5</button>
+
+        <span></span>
+    </div>
+
+    <script>
+        function nazwa(value,name)
+        {
+            let a = document.querySelector("span");
+            a.innerText = name + " ma wartość " + value;
+
+        }
+    </script>
+</body>
+</html>

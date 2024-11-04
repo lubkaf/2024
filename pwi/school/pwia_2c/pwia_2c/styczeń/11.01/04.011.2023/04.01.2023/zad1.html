@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <style>
+
+        body{
+            background-color: rgb(255, 165, 80);
+        }
+        *{
+            font-family: 'Poppins';
+            margin:0;
+            
+   /*         border: 1px solid black;*/
+        }
+        header{
+            background-color: rgb(104, 60, 31);
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 150px;
+            color:antiquewhite
+        }
+
+        header > div{
+            width: 50%;
+            height: 15vh;
+            font-size: 0.9em;
+            
+        }
+        aisde{
+            
+            width: 50%;
+            height: 15vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:flex-end;
+        }
+        .time{
+            display: flex;
+            justify-content: center;
+            border-collapse: collapse;
+        }
+        td{
+            border:1px solid antiquewhite;
+            width: 50px;
+            text-align: center;
+            border-collapse: collapse;
+
+        }
+        img{
+            width: 200px;
+            height: 100px;
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+        .left{
+            padding-right: 100px;
+            font-weight: 900px;;
+
+        }
+        article{
+            display:flex;
+            width: 100%;
+            justify-content: center;
+            
+        }
+        select{
+            margin-top: 35px;
+            width:100px;
+            height: 40px;
+            font-size: larger;
+            position: absolute;
+        }
+        #ocenka{
+            text-align: center;
+            font-weight: 700;
+            height: 40px;
+            font-size: larger;
+            margin-top: 100px;;
+
+        }
+        h2{
+            width: 100%;
+            text-align: center;
+        }
+        main{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            background-color: rgb(255, 165, 80);
+
+        }
+        a{
+            padding:12px;
+        }
+        h3{
+            position: absolute;
+        }
+        @media only screen and (max-width: 650px) {
+            body{
+            background-color: rgb(255, 165, 80);
+        }
+        *{
+            font-family: 'Poppins';
+            margin:0;
+            font-size: ;
+            
+   /*         border: 1px solid black;*/
+        }
+        header{
+            background-color: rgb(104, 60, 31);
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 50vh;
+            color:antiquewhite
+        }
+
+        header > div{
+            width: 50%;
+            height: 15vh;
+            font-size: 0.9em;
+            
+        }
+        aisde{
+            margin-top: -150px;
+            width: 50%;
+            height: 15vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:flex-end;
+        }
+        .time{
+            display: flex;
+            justify-content: center;
+            border-collapse: collapse;
+        }
+        td{
+            border:1px solid antiquewhite;
+            width: 50px;
+            text-align: center;
+            border-collapse: collapse;
+
+        }
+        img{
+            width: 100%;
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+        .left{
+            padding-right: 100px;
+            font-weight: 900px;;
+
+        }
+        article{
+            display:flex;
+            width: 100%;
+            justify-content: center;
+            
+        }
+        select{
+            margin-top: 35px;
+            width:100px;
+            height: 40px;
+            font-size: larger;
+            position: absolute;
+        }
+        #ocenka{
+            text-align: center;
+            font-weight: 700;
+            height: 40px;
+            font-size: larger;
+            margin-top: 100px;;
+
+        }
+        h2{
+            width: 100%;
+            text-align: center;
+        }
+        main{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            background-color: rgb(255, 165, 80);
+
+        }
+        a{
+            padding:12px;
+            width: auto;
+        }
+        h3{
+            position: absolute;
+        }
+  
+  
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+       
+        <div class="left"> <h7>Moje CV</h7><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quos, voluptatum beatae veniam omnis, ea ipsum voluptatibus dolor facilis autem et sunt doloremque impedit sapiente saepe delectus excepturi itaque qui!</div>
+        <aside>
+            <p id="dmr"></p>
+            <table class="time">
+                <tr>    
+                    <td id="g"></td>
+                    <td id="m"></td>
+                    <td id="s"></td>
+                </tr>
+            </table>
+            
+        </aside>
+    </header>
+    <main>
+        <h2>Moje projekty</h2>
+        <br>
+        <a href="projekt.html">
+            <img src="p1.svg" alt="p1">
+        </a>
+        <a href="projekt.html" alt="p2">
+            <img src="p2.svg">
+        </a>
+        <a href="projekt.html" alt="p3">
+            <img src="p3.svg">
+        </a>
+        <a href="projekt.html" alt="p4">
+            <img src="p4.svg">
+        </a>
+        <a href="projekt.html" alt="p5">
+            <img src="p5.svg">
+        </a>
+        <a href="projekt.html" alt="p6">
+            <img src="p6.svg">
+        </a>
+    </main>
+    <article>
+        <h3>Oceń mój projekt:</h3>
+        <select name="mark" id="ocena" oninput="ratee()">
+            
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+
+        </select>
+        
+        <p id="ocenka"></p>
+    </article>
+    
+    <script src="script.js"></script>
+</body>
+</html>

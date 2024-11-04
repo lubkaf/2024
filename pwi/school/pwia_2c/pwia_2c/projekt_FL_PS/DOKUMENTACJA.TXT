@@ -1,0 +1,32 @@
+Jest to strona internetowa, która po wpisaniu nazwy mięśnia w odpowiednie pole (po angielksu),
+wyświetla na ekranie do 10 ćwiczeń, którymi można przetrwnować właśnie tą partię
+
+
+https://api-ninjas.com/api/exercises - link do strony, z którą zrobiliśmy API
+
+Lista mięśni:
+
+abdominals
+abductors
+adductors
+biceps
+calves
+chest
+forearms
+glutes
+hamstrings
+lats
+lower_back
+middle_back
+neck
+quadriceps
+traps
+triceps
+
+
+ikony oraz czcionka zostały uzyte dzięki google fonts
+
+https://fonts.google.com/specimen/Poppins?query=popp --> czcionka
+https://fonts.google.com/icons --> ikonki
+
+

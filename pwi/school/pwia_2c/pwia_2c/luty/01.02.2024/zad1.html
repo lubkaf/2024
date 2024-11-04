@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="form">
+        <input id="login" type="text" placeholder="login" onkeydown="press(event)">
+        <br>
+        <button id="loguj" onclick="checkvalidity()">zaloguj</button>
+    </div>
+
+
+    <main style="visibility: hidden;">
+    <div id="dodaj">
+        <button onclick="dodaj()">Dodaj zdjęcie</button>
+    </div>
+
+    <div id="galeria">
+        <img src="car1.jpg" alr="nie">
+        <img src="car2.jpg" alr="nie">
+        <img src="car3.jpg" alr="nie">
+        <img src="car4.jpg" alr="nie">
+    </div>
+    </main>
+
+    
+
+
+
+
+
+
+
+
+    <script>
+        const loginy = ["franek", "jan", "filip", "dupa"];
+
+
+
+        function checkvalidity()
+        {
+            let valid = false;
+            let login = document.getElementById("login").value;
+            
+            for(let i=0 ; i<loginy.length ; i++)
+            {
+                if(login == loginy[i])
+                {
+                    valid = true;
+                    showGallery();
+                }
+            }
+            console.log(login);
+            if(!valid)
+            {
+                if(confirm('Czy to nowy login?'))
+                {
+                    loginy.push(login);
+                }
+            }
+        }
+
+
+
+
+        function showGallery()
+        {
+            let main = document.querySelector("main")
+            let form = document.querySelector("div");
+
+            main.style.visibility = "visible";
+            form.style.visibility = "hidden";
+        }
+
+
+
+
+
+        function press(event)
+        {
+            if(event.key == "Enter")
+            {
+                checkvalidity();
+            }
+        }
+
+
+
+        function dodaj(){
+            let x = prompt("Podaj nazwe zdjecia");
+            let zdj = document.createElement("img");
+            zdj.setAttribute("src", x + ".jpg");
+            zdj.setAttribute("alt", "kot");
+            galeria.appendChild(zdj);
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+        
+        
+        section{width: 40%}
+        
+        h1{border: 2px solid blue;
+            width:30%}
+        div{display: flex;
+            justify-content: center;
+            width:50px;
+            height:25px;
+            position:relative;
+            border: 1px solid black;
+            animation-name: pasek;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 900;
+        }
+        div:hover{color: whitesmoke}
+        @keyframes pasek{
+            0%, 100%{width:0%;
+                background-color: lightblue;  
+                font-size: 10px; 
+                
+            }
+            25%,70%{width:50%;
+                background-color:lightgreen;
+                font-size: 20px;
+                
+                
+            }
+            50%{width:100%;
+                background-color: yellow;}
+            
+        }
+        div.ladowanie{
+            animation-name: ladowanie;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+
+
+        }
+        @keyframes ladowanie{
+            0%,100%{
+                width:0%;   
+                background-color: aqua;
+            }
+            25%,75%{
+                width:50%
+            }
+            50%{
+                width:100%
+            }
+            
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div>ŁADOWANIE</div>
+        <h1>
+            <div class="ladowanie"></div>
+        </h1>
+    </section>
+</body>
+</html>

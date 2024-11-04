@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<title>js kartkówka</title>
+		<meta charset="UTF-8"/>
+    </head>
+	<body>
+       <h1>Sprawdzamy umiejętności</h1>
+        <div>
+            <p>Akapit pierwszy</p>
+            <p>Akapit drugi</p>
+            <p>Akapit trzeci</p>
+            <a href="#">odnośnik, który jest dzieckiem</a>
+        </div>
+        <a href="#">odnośnik, który jest samodzielny</a>
+        <p>Akapit czwarty</p>
+        <div class="asd">
+            <p>Akapit </p>
+        </div>
+        <button>zmiana 1</button>
+        <button>zmiana 2</button>
+        <button>zmiana 3</button>
+        
+        <!--Napisz skrypt, który przypisze zdarzenia metodą onclick  do przycisków:
+
+        1. przycisk 1 - ma ustalić inną czcionkę wszystkim elementom  <a>
+        
+        2. przycisk 2 - ma dodać pogrubienie do wszystkich <p> które są dziećmi div
+
+        3. przycisk 3 - ma zmienić grubość czcionki pierwszego <button>
+
+        NIE WOLNO DODAWAĆ WŁASNYCH ATRYBUTÓW, stosuj tylko metody querySelector, querySelectorAll, getElementsByClassName, getElementsByTagName
+        -->
+        
+        <script>
+            document.querySelector("button").onclick = ()=>
+            {
+                let czcionka = document.querySelectorAll("a");
+                for(i of czcionka)
+                {
+                    i.style.fontFamily = "Comic sans ms"
+                }
+            }
+
+            
+
+            document.querySelector("button:nth-of-type(2)").onclick = ()=>
+            {
+                let pogrubienie = document.querySelectorAll("div > p");
+                for(i of pogrubienie)
+                {
+                    i.style.fontWeight = "900";
+                }
+            }
+
+
+
+            document.querySelector("button:nth-of-type(3)").onclick = ()=>
+            {
+                document.querySelector("button").style.fontWeight = "900";
+                
+        
+            }
+        </script>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>gridek</title>
+    <style>
+        .nav{
+            width: 500px;
+            height:100px;
+            background-color: aqua; 
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr; 
+            grid-gap: 25px;  
+               
+        }
+        .a{
+          background-color: blue;
+          grid-column: 1/2;
+        }
+        .b{
+          background-color: blue;
+          grid-column: 2/3;
+        }
+        .c{
+          background-color: blue;
+          grid-column: 3/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </div>
+</body>
+</html>

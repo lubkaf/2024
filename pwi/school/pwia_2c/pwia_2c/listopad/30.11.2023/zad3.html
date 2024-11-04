@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var tekst="JavaScript jest językiem programowania do tworzenia stron www";
+        var c=""
+        for(let i=0 ; i<tekst.length ; i++)
+        {
+            if(tekst[i] == " ")
+            {
+                let wyraz = document.createElement("div")
+                document.body.appendChild(wyraz)
+                document.querySelector("div:last-child").innerText = c
+                c ="";
+            }
+            else
+            {
+                c+=tekst[i];
+            }
+        }
+
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    width: 100vw;
+    height:100vh;
+    font-family: czcioneks;
+    color: white;   
+    background-color: blue;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+
+}
+@font-face {
+    font-family: czcioneks;
+    src: url(Lucotecia_Semi_Bold.otf);
+}
+div{
+    background-color: rgb(11, 0, 114);
+    width:50%;
+    height:800px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2px;
+
+}
+form{
+    width: 90%;
+}
+input{
+    background-color: whitesmoke;
+    
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#inne{
+    width:auto;
+    height: 100px
+}

@@ -1,0 +1,72 @@
+*{
+    font-family: 'Trebuchet MS';
+    color: aliceblue;
+}
+body{
+position: absolute;
+   background-image: url("tlo.jpg"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+img{
+    width: 100%;
+
+}
+.kwadrat{
+    border-radius: 50px;
+    width: 150px;
+    background-color: aliceblue;
+    margin: 15px;
+    padding:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.srodek{
+    width: 30%;
+
+    margin-top: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    align-items: center;
+   
+    
+
+}
+.prawo{
+    width: 20%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    width: 90%;
+    border-bottom: 3px solid yellowgreen;
+    text-align: center;
+    
+
+}
+select, input[type=number]{
+ height:30px;
+ border-radius: 10px;
+ color: black;
+}
+button{
+    margin-top: -300px;
+    height: 25px;
+    width:70%;
+    color: black;
+}

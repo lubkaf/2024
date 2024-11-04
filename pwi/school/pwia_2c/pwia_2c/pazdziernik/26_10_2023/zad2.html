@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="checkbox" value="za darmo" id="mieszkam">
+    <label for="dystans">Jak daleko mieszkasz</label>
+    <input type="number" min="0" id="dystans">
+    <input type="button" value="oblicz" id="btn">
+    <p id="wynik"></p>
+<script>
+    
+    btn.onclick = () =>
+    {
+        let cena = dystans.value * 2;
+        if(mieszkam.checked)
+        {
+            wynik.innerText = 'dowoz darmowy'
+        }
+        else
+        {
+            wynik.innerText = "musisz zapłacić" + cena;
+        }
+    }
+    else 
+</script>
+
+</body>
+
+
+</html>

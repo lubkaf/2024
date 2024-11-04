@@ -1,0 +1,19 @@
+div>a {
+    display: block;
+    width: 70px;
+    height: 40px;
+    background-image: url('kaktusik.png');
+    background-position: 0 40px;
+}
+
+div>a:hover {
+    background-position: 0 0;
+}
+
+body {
+    display: flex;
+}
+
+div#szkola {
+    position: relative back;
+}

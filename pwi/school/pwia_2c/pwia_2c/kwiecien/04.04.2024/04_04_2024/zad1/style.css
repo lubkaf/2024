@@ -1,0 +1,27 @@
+*{
+    font-family:'Comfortaa'
+}
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+img{
+    height: 500px;
+}
+.mini{
+    width: 80%;
+    height:150px;
+}
+.galImg{
+    width: 25%;
+}
+.miniaturki{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    
+}
+

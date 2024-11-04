@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *
+    {
+        font-family: 'Consolas';
+    }
+    header, footer
+    {
+        background-color: antiquewhite;
+    }
+    header
+    {
+        width:100%;
+        height: 15vh;
+        
+    }
+    footer
+    {
+        width:100%;
+        height: 55vh;
+    }
+    article
+    {
+       width:100%;
+        height: 30vh;
+        background-color: rgb(247, 219, 177);
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    div
+    {
+        width:25vh;
+        height:25vh;
+        background-color: antiquewhite;
+        border: 1px solid black
+    }
+</style>
+<body>
+     <header>
+        <h1>Pudełka niespodzianki</h1>
+        <button id="dodaj">Dodaj pudełko</button>
+        <button id="wstaw">Wstaw zawartość</button>
+        <button id="usun">usuń pudełko</button>
+    </header>
+    <article id="line">
+
+    </article>
+    <footer>
+        
+    </footer>
+    <script>
+        function AddContainer()
+        {
+            let kwadrat = document.createElement("div");
+            line.append(kwadrat);
+        }
+        function WstawZdj()
+        {
+            let napisy = document.createElement("p");
+            let zdjecie = document.createElement("img");
+            napisy = prompt("Podaj napisy");
+            zdj = prompt("podaj zdjecie ktore chcesz dodac");
+            document.querySelector("div").innerText = napisy;
+            document.querySelector("div").appendChild(zdjecie);
+            zdjecie.src = zdj
+
+        }
+        function UsunZdj()
+        {
+           let usun = document.querySelector("article").lastChild;
+           usun.remove();
+        }
+        dodaj.addEventListener("click",AddContainer)
+        usun.addEventListener("click", UsunZdj)
+        wstaw.addEventListener("click", WstawZdj)
+    </script>
+</body>
+   
+
+
+</html>

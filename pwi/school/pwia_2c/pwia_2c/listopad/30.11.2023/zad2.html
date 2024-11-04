@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label>Podaj imię:</label>
+    <input type="text" placeholder="podaj imie" onfocus="wyswietl()" onblur="usun()">
+    <br>
+    <span id="imieopis"></span>
+    <script>
+
+       function wyswietl()
+       {
+        imieopis.innerHTML= "Pierwsza litera imienia wielka, reszta małe";
+       }
+       function usun()
+       {
+        imieopis.innerText= "";
+       }
+
+    </script>
+</body>
+</html>

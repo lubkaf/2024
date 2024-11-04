@@ -1,0 +1,21 @@
+*
+{
+    font-family: 'Consolas';
+    font-size: 18px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+button{
+    background-color: rgb(171, 171, 171);
+    color:black;
+    width: 24vh;
+    height: 13.5vh;
+    border-radius: 20px;
+    font-weight:600;
+}

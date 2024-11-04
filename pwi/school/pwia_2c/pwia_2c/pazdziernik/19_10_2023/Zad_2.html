@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sprawdzamy umiejętności</h1>
+        <div>
+            <p>Akapit pierwszy</p>
+            <p>Akapit drugi</p>
+            <p>Akapit trzeci</p>
+            <a href="#">odnośnik, który jest dzieckiem</a>
+        </div>
+        <a href="#">odnośnik, który jest samodzielny</a>
+        <p>Akapit czwarty</p>
+        <div class="asd">
+            <p>Akapit </p>
+            <p>Akapit </p>
+        </div>
+        <button>zmiana 1</button>
+        <button>zmiana 2</button>
+        <button>zmiana 3</button>
+        <button id="btn4">zmiana 4</button>
+        <button>zmiama 5</button>
+
+
+
+        <script>
+            document.querySelector("button:nth-of-type(1)").onclick =
+            function(){
+                let akapity = document.querySelectorAll("div.asd > p");
+                
+                //console.log(akapity);
+                /*for(let i=0; i< akapity.length ; i++)
+                {
+                    akapity[i].style.fontStyle = 'italic'
+                }*/
+
+                for(i of akapity){
+                    i.style.fontStyle = 'italic'
+                }
+       
+            }
+            document.querySelector("button:nth-of-type(3)").onclick =
+            ()=>{
+                document.querySelector("button:nth-of-type(3)").style.fontWeight = '800';
+                let duzeLitery = document.querySelectorAll("p");
+                for(x of duzeLitery){
+                    x.style.textTransform = 'uppercase'
+                }
+            }
+            document.querySelector("#btn4").onclick =
+            ()=>{
+                let odnosnik = document.querySelectorAll("a");
+                for (x of odnosnik){
+                    x.style.textDecoration = "none";
+                    x.style.color = "red";
+                    x.style.letterSpacing = "12px"
+                }
+            }
+
+            document.querySelector("button:nth-of-type(5)").onlcick =
+            ()=>{
+                document.querySelector("div + a").style.fontSize = "2em";
+                document.querySelector("button:nth-of-type(1)").style.border = " solid pink 2px";
+            }
+
+            
+        </script>
+</body>
+
+
+</html>
