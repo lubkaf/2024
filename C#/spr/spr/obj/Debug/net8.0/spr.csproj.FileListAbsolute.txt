@@ -1,0 +1,15 @@
+C:\Users\Filip\Desktop\git\C#\spr\spr\bin\Debug\net8.0\spr.exe
+C:\Users\Filip\Desktop\git\C#\spr\spr\bin\Debug\net8.0\spr.deps.json
+C:\Users\Filip\Desktop\git\C#\spr\spr\bin\Debug\net8.0\spr.runtimeconfig.json
+C:\Users\Filip\Desktop\git\C#\spr\spr\bin\Debug\net8.0\spr.dll
+C:\Users\Filip\Desktop\git\C#\spr\spr\bin\Debug\net8.0\spr.pdb
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\spr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\spr.AssemblyInfoInputs.cache
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\spr.AssemblyInfo.cs
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\spr.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\spr.sourcelink.json
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\spr.dll
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\refint\spr.dll
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\spr.pdb
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\spr.genruntimeconfig.cache
+C:\Users\Filip\Desktop\git\C#\spr\spr\obj\Debug\net8.0\ref\spr.dll

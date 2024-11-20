@@ -1,0 +1,15 @@
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\interfaces_classes_clinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\interfaces_classes_clinq.AssemblyInfoInputs.cache
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\interfaces_classes_clinq.AssemblyInfo.cs
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\interfaces_classes_clinq.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\interfaces_classes_clinq.sourcelink.json
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\bin\Debug\net8.0\interfaces_classes_clinq.exe
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\bin\Debug\net8.0\interfaces_classes_clinq.deps.json
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\bin\Debug\net8.0\interfaces_classes_clinq.runtimeconfig.json
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\bin\Debug\net8.0\interfaces_classes_clinq.dll
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\bin\Debug\net8.0\interfaces_classes_clinq.pdb
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\interfaces_classes_clinq.dll
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\refint\interfaces_classes_clinq.dll
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\interfaces_classes_clinq.pdb
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\interfaces_classes_clinq.genruntimeconfig.cache
+C:\Users\Filip\Desktop\git\C#\interfaces_classes_clinq\interfaces_classes_clinq\obj\Debug\net8.0\ref\interfaces_classes_clinq.dll
